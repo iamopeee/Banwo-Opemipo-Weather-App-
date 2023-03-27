@@ -1,0 +1,160 @@
+body {
+    width: 100%;
+    background-color: rgb(227, 205, 247);
+    
+}
+
+.container {
+    margin-top: 8%;
+    width: 100%;
+    margin-left: 5%;
+}
+
+h1 {
+    margin-left: 6%;
+    margin-top: 4%;
+}
+
+li {
+    color: #7c7c7c;
+    font-size: 16px;
+    list-style: none;
+    margin-left: 2%;
+  }
+
+.temperature {
+    font-size: 64px;
+    font-weight: 400;
+    
+}
+
+.float-left{
+    margin-left: 12%;
+}
+
+.a {
+    margin-left: 5%;
+    width: 70%;
+}
+
+#current-location-button {
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+  }
+
+#b {
+    background-color: rgb(176, 122, 226);
+    border: 2px solid rgb(176, 122, 226);
+}
+  
+.units {
+    position: relative;
+    top: -34px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex1 {
+    width: 70%;
+}
+
+.flex2{
+    background-image: url(image/1.jpg);
+    background-size: cover;
+    width: 30%;
+    height: 660px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 20s infinite ease-in-out;
+}
+
+@keyframes change{
+  0%
+  {
+      background-image: url(image/1.jpg);
+  }
+  20%
+  {
+      background-image: url(image/2.jpg);
+  }
+  40%
+  {
+      background-image: url(image/3.jpg);
+  }
+  60%
+  {
+      background-image: url(image/4.jpg);
+  }
+  80%
+  {
+      background-image: url(image/5.jpg);
+  }
+  100%
+  {
+      background-image: url(image/6.jpg);
+  }
+}
+
+.overview {
+    margin-bottom: 20px;
+  }
+  
+  .weather-temperature img {
+    margin-right: 5px;
+    height: 64px;
+    width: 64px;
+  }
+  
+  .weather-temperature strong {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 400;
+  }
+  
+  .weather-temperature .units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
+  }
+  
+  .weather-temperature .active {
+    color: rgb(33, 33, 33);
+    cursor: default;
+  }
+  
+  .weather-temperature .active:hover {
+    text-decoration: none;
+  }
+  
+  .weather-forecast {
+    margin-left: 2%;
+    margin-top: 5%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.5;
+  }
+  
+  .weather-forecast-temperature-min {
+    opacity: 0.5;
+  }
+  
+  .weather-forecast-temperatures {
+    font-size: 13px;
+  }
+
+.s {
+    margin-top: 5%;
+    margin-left: 6%;
+}
+  
+
+
